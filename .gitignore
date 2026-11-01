@@ -1,0 +1,21 @@
+# ---- 编译产物 ----
+build/
+*.exe
+*.o
+*.out
+a.out
+
+# ---- 与源码同名的无扩展名可执行文件 ----
+# 先忽略整个模式，再把 .cpp 反排除回来
+C++primerplus_filesP3/WORK3_*
+!C++primerplus_filesP3/WORK3_*.cpp
+
+C++primerplus_filesP2/PAGE2_*
+!C++primerplus_filesP2/PAGE2_*.cpp
+!C++primerplus_filesP2/PAGE2_*.CPP
+
+cSchoolWork/*
+!cSchoolWork/*.cpp
+
+# ---- 根目录临时产物 ----
+/main
