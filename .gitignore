@@ -19,3 +19,6 @@ cSchoolWork/*
 
 # ---- 根目录临时产物 ----
 /main
+
+# ---- macOS 系统文件 ----
+.DS_Store
