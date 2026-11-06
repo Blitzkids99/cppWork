@@ -17,6 +17,9 @@ C++primerplus_filesP2/PAGE2_*
 cSchoolWork/*
 !cSchoolWork/*.cpp
 
+Test/*
+!Test/*.cpp
+
 # ---- 根目录临时产物 ----
 /main
 
