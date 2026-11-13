@@ -9,5 +9,12 @@
   },
   "search.exclude": {
     "**/build": true
+  },
+
+  "code-runner.runInTerminal": true,
+  "code-runner.saveFileBeforeRun": true,
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.executorMap": {
+    "cpp": "cd $dir && mkdir -p $workspaceRoot/build && g++ -std=c++11 -Wall -Wextra $fileName -o $workspaceRoot/build/$fileNameWithoutExt && $workspaceRoot/build/$fileNameWithoutExt"
   }
 }
