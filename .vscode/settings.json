@@ -1,0 +1,13 @@
+{
+  "files.exclude": {
+    "**/build": true,
+    "**/*.exe": true,
+    "**/*.o": true,
+    "**/*.out": true,
+    "**/a.out": true,
+    "**/.DS_Store": true
+  },
+  "search.exclude": {
+    "**/build": true
+  }
+}
