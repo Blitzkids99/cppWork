@@ -1,4 +1,4 @@
-//not finish 
+//未完工
 //冒泡排序
 #include<iostream>
 using namespace std;
