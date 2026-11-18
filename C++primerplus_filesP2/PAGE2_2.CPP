@@ -11,7 +11,7 @@ int main()
     shtr();
     return 0;
 }
-void mice()//一定要注意函数的名称有无拼写错误啊（捂脸）
+void mice()
 {
     cout << "Three blind mice" << endl;
 }
