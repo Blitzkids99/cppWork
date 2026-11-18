@@ -4,17 +4,19 @@ using namespace std;
 int main()
 {
     cout << "enter 10 numbers:" << endl;
-    int i,j,t;
+    int i,pass,temp;
     int list[10];
     for (i = 0; i < 10; ++i)
         cin >>list[i];
     cout << endl;
-    for (j = 1; j <= 10;++j)
-        for (i = 0; i <= (10 - j);++i)
+    for (j = 1; pass<10;++j)//n-1次
+        for (i = 0; i <(10 - pass);++i)
             if(list[i]>list[i+1])
-                {t = list[i];
-                list[i] = list[i + 1];
-                list[i + 1] = t;}
+                {
+                    temp= list[i];
+                    list[i] = list[i + 1];
+                    list[i + 1] = temp;
+                }
     cout << "the number have been ordered is :" << endl;
     for (i = 0; i < 10;++i)
         cout << list[i] << endl;
