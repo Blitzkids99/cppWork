@@ -9,7 +9,7 @@ int main()
     for (i = 0; i < 10; ++i)
         cin >>list[i];
     cout << endl;
-    for (j = 1; pass<10;++j)//n-1次
+    for (pass = 1; pass<10;++pass)//n-1次
         for (i = 0; i <(10 - pass);++i)//n-p次
             if(list[i]>list[i+1])
                 {
