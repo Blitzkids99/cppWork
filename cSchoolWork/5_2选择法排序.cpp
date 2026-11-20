@@ -8,11 +8,6 @@ int main()
     for (i = 0; i < 10;++i)
       {
           cin >> a[i];
-          if (!(cin >> a[i]))
-          {
-              cout << "input error" << endl;
-              return 0;
-          }
       }  
     select_sort(a, 10);
     for (i = 0; i <10;++i)
@@ -22,7 +17,7 @@ int main()
 void select_sort(int a[],int n)
 {
     int i, j, k,temp;
-    for (i = 0; i <= n - 1; ++i)
+    for (i = 0; i < n-1; ++i)
     {
         k = i;
         for (j = i + 1; j < n; ++j)
