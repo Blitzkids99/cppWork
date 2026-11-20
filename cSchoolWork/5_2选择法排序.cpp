@@ -8,6 +8,8 @@ int main()
     for (i = 0; i < 10;++i)
         cin >> a[i];
     select_sort(a, 10);
+    for (i = 0; i <= 10;++i)
+        cout << "the array have been ordered is:" << a[i] << endl;
     return 0;
 }
 void select_sort(int a[],int n)
@@ -21,8 +23,8 @@ void select_sort(int a[],int n)
             if (a[j] < a[k])
                 k = j;
         }
-        temp = a[k];
-        a[i] = a[k];
         temp = a[i];
+        a[k] = a[i];
+        temp = a[k];
     }
 }
