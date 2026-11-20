@@ -10,8 +10,9 @@ int main()
           cin >> a[i];
       }  
     select_sort(a, 10);
-    for (i = 0; i <10;++i)
-        cout << "the array have been ordered is:" << a[i] << endl;
+    cout << "the array had been ordered is:";
+    for (i = 0; i < 10; ++i)
+        cout<< a[i] << endl;
     return 0;
 }
 void select_sort(int a[],int n)
