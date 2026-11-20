@@ -10,7 +10,7 @@ int main()
         cin >>list[i];
     cout << endl;
     for (j = 1; pass<10;++j)//n-1次
-        for (i = 0; i <(10 - pass);++i)
+        for (i = 0; i <(10 - pass);++i)//n-p次
             if(list[i]>list[i+1])
                 {
                     temp= list[i];
